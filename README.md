@@ -1,2 +1,2 @@
-# JIANG-S-TRYING1
+# JIANGTRYING.github.io
 生物信息学课程初尝试，可能掉落一些课程学习内容和想法。生命不息，学习不止，多有失误，还请指教。
