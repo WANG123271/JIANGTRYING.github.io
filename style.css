@@ -53,6 +53,7 @@ footer {
     background: rgba(0, 0, 0, 0.8);
 }
 .main-intro {
-    font-size: 36px;
-    font-weight: 800;
+    font-size: 28px;      /* 字体大小 */
+    font-weight: bold;    /* 加粗 */
+    margin-top: 20px;
 }
