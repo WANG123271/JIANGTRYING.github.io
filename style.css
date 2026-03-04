@@ -30,7 +30,9 @@ header {
     text-align: center;
     padding: 100px 20px;
 }
-
+header {
+    color: white;
+}
 /* 板块 */
 section {
     background: rgba(255, 255, 255, 0.85);
