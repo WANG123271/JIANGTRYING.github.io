@@ -35,7 +35,21 @@
             <li>Computational biology</li>
         </ul>
     </section>
+<section id="article">
+    <h2>My Article</h2>
+    <div id="content"></div>
+</section>
 
+<!-- Markdown 解析库 -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+fetch("article.md")
+  .then(response => response.text())
+  .then(text => {
+    document.getElementById("content").innerHTML = marked.parse(text);
+  });
+</script>
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: wang-yj24@mails.tsinghua.edu.cn</p>
