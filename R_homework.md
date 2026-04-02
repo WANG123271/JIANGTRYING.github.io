@@ -1,30 +1,8 @@
-# Iris 数据分析上机任务
+# 2026.4.2 R上机任务
+###王屹江 2024012731
 
-## 一、环境准备
 
-### Docker + R
-
-1. 拉取镜像：
-
-```bash
-docker pull r-base
-```
-
-2. 启动容器：
-
-```bash
-docker run -it --name r_env r-base bash
-```
-
-3. 进入 R：
-
-```r
-R
-```
-
----
-
-## 二、iris 数据集基本信息
+## 一、iris 数据集基本信息
 
 ### 代码
 
@@ -57,7 +35,7 @@ str(iris)
 
 ---
 
-## 三、按 Species 分组计算 Sepal.Length 的均值和标准差
+## 二、按 Species 分组计算 Sepal.Length 的均值和标准差
 
 ### 代码
 
@@ -75,20 +53,13 @@ print(result_expanded)
 write.csv(result_expanded, "sepal_length_stats.csv", row.names=FALSE)
 ```
 
-### 输出结果 / CSV 内容
+### 输出CSV的内容
 
 ```
 Species,Mean,SD
 setosa,5.006,0.3524897
 versicolor,5.936,0.5161711
 virginica,6.588,0.6358796
-```
-
-### CSV 拷贝到桌面
-
-```bash
-# Windows PowerShell
-docker cp r_env:/sepal_length_stats.csv "$Env:USERPROFILE\Desktop\sepal_length_stats.csv"
 ```
 
 ---
@@ -118,9 +89,3 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 ---
 
-## 五、总结
-
-1. 数据集 iris 有 5 列，类型为 numeric / factor。
-2. 按 Species 分组，Sepal.Length 均值和标准差计算完成，CSV 文件已生成并拷贝到桌面。
-3. Sepal.Width 的 One-way ANOVA 显示不同物种间存在显著差异。
-4. 所有步骤可在 Docker + R 环境中复现。
