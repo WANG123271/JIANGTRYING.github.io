@@ -1,5 +1,5 @@
 # 2026.4.2 R上机任务
-###王屹江 2024012731
+王屹江 2024012731
 
 
 ## 一、iris 数据集基本信息
@@ -64,7 +64,7 @@ virginica,6.588,0.6358796
 
 ---
 
-## 四、不同 Species 的 Sepal.Width One-way ANOVA 分析
+## 三、不同 Species 的 Sepal.Width One-way ANOVA 分析
 
 ### 代码
 
