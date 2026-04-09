@@ -14,7 +14,8 @@
 
 人类基因组并非“蛋白编码序列为主”，而是由以下部分构成：
 
-<p align="center"><strong>表1.人类基因组组成部分</strong></p>
+<div align="center">表1.人类基因组组成部分
+
 
 | 组成部分 | 典型特征 | 说明 |
 |---|---:|---|
@@ -24,6 +25,8 @@
 | 重复序列（repetitive elements） | 约占约一半 | 包括 LINE、SINE、LTR、DNA transposon 等 |
 | 调控序列（regulatory elements） | 分散存在 | 启动子、增强子、沉默子、绝缘子等 |
 | 非编码 RNA 基因（ncRNA genes） | 数量较多 | 包括 miRNA、lncRNA、snRNA、snoRNA 等 |
+
+</div>
 
 ### 1.3 
 
@@ -46,6 +49,7 @@
 
 ### 2.2 
 <div align="center">表2.非编码 RNA 的主要细分类型
+
 
 | 非编码 RNA 类型 | 数量 | 主要功能 |
 |---|---:|---|
