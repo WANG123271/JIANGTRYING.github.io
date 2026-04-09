@@ -45,7 +45,8 @@
 由于不同数据库（GENCODE、Ensembl、miRBase、RNAcentral）对非编码RNA的定义和统计标准不同，因此各类型数量存在一定差异。本作业以 GENCODE Release 49（2025）为主要参考标准。
 
 ### 2.2 
-<p align="center"><strong>表2.非编码 RNA 的主要细分类型</strong></p>
+<div align="center">表2.非编码 RNA 的主要细分类型
+
 | 非编码 RNA 类型 | 数量 | 主要功能 |
 |---|---:|---|
 | miRNA | 1,879（GENCODE v49）或 ~2,600（miRBase） | 通过与靶 mRNA 配对，抑制翻译或促进 mRNA 降解，参与发育、分化和肿瘤调控。 |
@@ -60,6 +61,8 @@
 | Y RNA | ~4 | 参与 DNA 复制、RNA 稳定性及核糖核蛋白复合物相关过程。 |
 | vault RNA | 4 | 与 vault 复合体相关，可能参与 RNA 调控和细胞应答。 |
 | lincRNA / antisense RNA / sense intronic RNA 等 | 已包含在 lncRNA（35,899）中 | 属于长链非编码 RNA 的不同亚类，常参与转录调控和染色质调节。 |
+
+</div>
 
 注：以上统计主要基于 GENCODE Release 49（2025，GRCh38.p14），其中 small ncRNA 总数为 7,563，lncRNA 为 35,899。不同数据库统计口径存在差异，例如 miRNA 在 GENCODE 中为 1,879，而 miRBase 收录约 2,600 条。
 根据 GENCODE Release 49（2025）统计，人类基因组中非编码 RNA 基因总数约为：
